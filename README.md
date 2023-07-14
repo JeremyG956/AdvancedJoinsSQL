@@ -3,13 +3,12 @@
 # Introduction
 
 
-This project’s purpose is to practice a wide variety of advanced SQL techniques such as subqueries, complex joins, and null value queries.  
+This project’s purpose is to practice a wide variety of advanced SQL techniques such as subqueries, complex joins, and null value queries. Furthermore, this project was individual work to develop and hone our advanced SQL techniques. While I was tasked with completing only 50 queries, I couldnt help but answer all of them as it was so much fun! 
 
 In the realm of transportation and logistics, the taxicab industry forms a significant portion of the landscape. Taxi cabs not only serve the public in getting from one place to another but also contribute to a city's economic structure. The data revolving around taxicab operations can present a wealth of insights - from cab maintenance to shift patterns, driver performance to cost analysis, and beyond. This project dives deep into analyzing an extensive dataset from a hypothetical taxicab company.
 
 The dataset contains information about cabs, their drivers, shifts, maintenance details, fuel usage, driver qualifications, and incident records. This multi-faceted data provides an opportunity to explore multiple aspects of the business, enabling a comprehensive understanding of the operations and performance of the taxicab company.
 
-While tasked with completing 50 queries, I couldnt help but answer all of them as it was so much fun! 
 
 # Problem Statement
 
