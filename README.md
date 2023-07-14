@@ -33,7 +33,7 @@ In terms of structure, the dataset spans multiple tables, each providing a diffe
 Overall, the diverse nature and complexity of this dataset make it a highly valuable resource for conducting an in-depth analysis of taxicab operations. It offers a real-world example of the various dimensions involved in managing a taxicab company.
 
 # Data Modeling
-![ERD_diagram](ERD diagram.png)
+![ERD_diagram](ERD_diagram.png)
 Here was have an ERD diagram that displays the relationship between the 7 tables in our database. The database is constructed following business rules and procedures. 
 
 # Analysis
