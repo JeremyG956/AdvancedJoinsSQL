@@ -1,6 +1,6 @@
 # AdvancedJoinsSQL
 ![SQL](pic01.jpg)
-#Introduction
+# Introduction
 
 
 This project’s purpose is to practice a wide variety of advanced SQL techniques such as subqueries, complex joins, and null value queries.  
@@ -30,6 +30,9 @@ In terms of structure, the dataset spans multiple tables, each providing a diffe
 
 Overall, the diverse nature and complexity of this dataset make it a highly valuable resource for conducting an in-depth analysis of taxicab operations. It offers a real-world example of the various dimensions involved in managing a taxicab company.
 
+# Data Modeling
+![ERD diagram](ERD diagram.png)
+
 
 # Analysis
 The analysis of this project will be divided into various parts, each focusing on a different aspect of taxicab operations.
@@ -48,7 +51,23 @@ In conclusion, the analysis aims to provide actionable insights that can help th
 
 
 
-# Visualization
+# Data Visualization
+![cab_table](cab_table.png)
+
+![driver_tablecab_table](driver_table.png)
+
+![fueluse_table](fueluse_table.png)
+
+![incident_table](incident_table.png)
+
+![maintain_table](maintain_table.png)
+
+![qualification_table_1](qualification_table_1.png)
+
+![qualification_table_2](qualification_table_2.png)
+
+![shift_table](shift_table.png)
+
 
 #Conclusion
 Our comprehensive analysis of the taxicab operations dataset has provided valuable insights and addressed several questions concerning the efficiency and effectiveness of the company's operations. Key findings include the identification of drivers who have performed exceptionally well in terms of fare collections, shifts that are most frequently driven, and makes of cabs that have the highest incidents.
@@ -70,7 +89,7 @@ Finally, we believe that the conclusions derived from this analysis not only add
 # Queries Performed
 The Queries 
 1. Display the name and age of the oldest driver. 
-SELECT dr_drvname, (sysdate - dr_brthdate) / 365.25 AS Age
+`code` SELECT dr_drvname, (sysdate - dr_brthdate) / 365.25 AS Age
 FROM driver
 WHERE (sysdate - dr_brthdate) / 365.25 = (
   SELECT MAX((sysdate - dr_brthdate) / 365.25) FROM driver)
