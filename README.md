@@ -9,6 +9,8 @@ In the realm of transportation and logistics, the taxicab industry forms a signi
 
 The dataset contains information about cabs, their drivers, shifts, maintenance details, fuel usage, driver qualifications, and incident records. This multi-faceted data provides an opportunity to explore multiple aspects of the business, enabling a comprehensive understanding of the operations and performance of the taxicab company.
 
+While tasked with completing 50 queries, I couldnt help but answer all of them as it was so much fun! 
+
 # Problem Statement
 
 The aim of this project is to extract meaningful insights from the dataset and solve complex queries that can aid the taxicab company in improving its operations, maintenance, driver management, and overall efficiency.
@@ -31,8 +33,8 @@ In terms of structure, the dataset spans multiple tables, each providing a diffe
 Overall, the diverse nature and complexity of this dataset make it a highly valuable resource for conducting an in-depth analysis of taxicab operations. It offers a real-world example of the various dimensions involved in managing a taxicab company.
 
 # Data Modeling
-![ERD diagram](ERD diagram.png)
-
+![ERD_diagram](ERD diagram.png)
+Here was have an ERD diagram that displays the relationship between the 7 tables in our database. The database is constructed following business rules and procedures. 
 
 # Analysis
 The analysis of this project will be divided into various parts, each focusing on a different aspect of taxicab operations.
