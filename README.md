@@ -1,4 +1,4 @@
-# AdvancedJoinsSQL
+# Advanced SQL Techniques - 80 queries 
 ![SQL](pic01.jpg)
 # Introduction
 
